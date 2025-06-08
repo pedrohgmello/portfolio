@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="icon" type="image/png" href="caminho/para/seu-favicon.png"> -->
+    <link href="./src/style/output.css" rel="stylesheet" />
+    <title>Pedro Mello</title>
+</head>
+<body class="bg-slate-950">
+    <session class="flex flex-col h-11/12 md:justify-between md:flex-row">
+        <session>
+            <div class="flex items-center flex-col md:items-start md:flex-row md:gap-6 md:m-20 m-10 mt-0">
+                <div class="md:hidden mb-5">
+                    <span class="flex">
+                        <h1 id="greet" class="text-3xl">
+                            Olá, eu sou o Pedro!
+                        </h1>
+                        <h1 class="text-3xl">
+                            👋
+                        </h1>
+                    </span>
+                    <h2 class="text-lg">
+                        Desenvolvedor Web
+                    </h2>
+                </div>
+                <img
+                src="./src/assets/img/FotoPerfil.png"
+                class="rounded-full border-2 border-white max-w-52 max-h-52"
+                />
+                <div class="hidden md:block">
+                    <span class="flex">
+                        <h1 id="greet">
+                            Olá, eu sou o Pedro!
+                        </h1>
+                        <h1 class="text-4xl">
+                            👋
+                        </h1>
+                    </span>
+                    <h2>
+                        Desenvolvedor Web
+                    </h2>
+                </div>
+            </div>
+            <div class="my-10 hidden md:block">
+                <h2 class="text-2xl font-medium text-white mx-20">
+                    Experiência
+                </h2>
+                <p class="text-gray-400 font-light text-lg ml-20 mt-3">
+                    Mais de 300 horas de estudo na área de desenvolvimento web, com conhecimento fullstack, <br> me permitindo trabalhar em qualquer área do desenvolvimento.
+                </p>
+            </div>
+            <span class="md:ml-20 gap-x-3 flex justify-center md:justify-normal">
+                <i class="fa-brands fa-html5 text-gray-400 text-4xl"></i>
+                <i class="fa-brands fa-css3-alt text-gray-400 text-4xl"></i>
+                <i class="fa-brands fa-square-js text-gray-400 text-4xl"></i>
+                <i class="fa-brands fa-node text-gray-400 text-4xl"></i>
+                <i class="fa-brands fa-bootstrap text-gray-400 text-4xl"></i>
+            </span>
+        </session>
+        <div class="flex flex-col gap-y-8">
+            <ul class="mx-20 mt-20 mb-10 md:block hidden">
+                <li>
+                    <h3>
+                        Línguas
+                    </h3>
+                    <p class="list">
+                        EN - Fluente
+                    </p>
+                    <p class="list">
+                        PT-BR - Nativo
+                    </p>
+                </li>
+                <li>
+                    <h3 class="mt-10">
+                        Formação Acadêmica
+                    </h3>
+                    <p class="list text-2xl">
+                        Tecnologia da informação -<br> Faeterj Petrópolis (2025 - Atual)
+                    </p>
+                </li>
+            </ul>
+            <div class="flex mt-10 md:mt-0 justify-center md:justify-normal gap-5 md:gap-0">
+                <a href="https://www.linkedin.com/in/pedro-henrique-gomes-mello-b12073233/" class="max-w-xl md:ml-20 cursor-pointer hover:scale-150 hover:duration-100">
+                    <i class="fa-brands fa-linkedin-in text-gray-400 text-4xl"></i>
+                </a>
+                <a href="https://www.instagram.com/pedromellodev/" class="max-w-xl md:ml-20 cursor-pointer hover:scale-150 hover:duration-100">
+                    <i class="fa-brands fa-instagram text-gray-400 text-4xl"></i>
+                </a>
+            </div>
+            <a href="https://wa.me/5511969433329" class="mx-15 md:mt-8 mt-5 box-border md:py-3 py-1.5 md:px-44 bg-gradient-to-r from-indigo-950 to-purple-800 text-white font-semibold text-md md:text-lg text-center rounded-full cursor-pointer hover:scale-110 hover:duration-100">
+                    Entre em contato!
+            </a>
+            
+            <div class="my-0 md:hidden">
+                <h2 class="text-2xl font-medium text-white mx-15">
+                    Experiência
+                </h2>
+                <p class="text-gray-400 font-light text-lg mx-15 mt-3">
+                    Mais de 300 horas de estudo na área de desenvolvimento web, com conhecimento fullstack, me permitindo trabalhar em qualquer área do desenvolvimento.
+                </p>
+            </div>
+            <ul class="mx-15 md:hidden">
+                <li>
+                    <h3 class="text-lg">
+                        Línguas
+                    </h3>
+                    <p class="list text-xl">
+                        EN - Fluente
+                    </p>
+                    <p class="list text-xl">
+                        PT-BR - Nativo
+                    </p>
+                </li>
+                <li>
+                    <h3 class="mt-3 text-lg">
+                        Formação Acadêmica
+                    </h3>
+                    <p class="list text-xl">
+                        Tecnologia da informação - Faeterj Petrópolis (2025 - Atual)
+                    </p>
+                </li>
+            </ul>
+            <!--TODO:-->
+        </div>
+    </session>
+    <session class="flex flex-col gap-0.5 md:gap-1.5 mt-0">
+        <h1 class="mx-15 md:mx-20">
+            Projetos
+        </h1>
+        <article class="article"> 
+            <!--PADRÃO DOS ARTICLES, SEMPRE TRÊS TAGS DENTRO DO <a>-->
+            <!-- NÃO MANTER A APRESENTAÇÃO, E AO INVÉS DO <p> VAZIO DEIXAR UM <span> COM AS TECHS USADAS-->
+            <a href="https://www.github.com/pedrohgmello/pedrohgmello" class="w-full flex justify-between content-center">
+                <i class="fa-solid fa-link text-gray-400 text-center mt-1.5"></i>
+                <p class="font-medium justify-center">pedrohgmello</p>
+                <span>
+                    <span class="tags">
+                        GitHub
+                    </span>
+                    <span class="tags">
+                        README
+                    </span>
+                </span>
+            </a>
+        </article>
+        <article class="article"> 
+            <!--PADRÃO DOS ARTICLES, SEMPRE TRÊS TAGS DENTRO DO <a>-->
+            <!-- NÃO MANTER A APRESENTAÇÃO, E AO INVÉS DO <p> VAZIO DEIXAR UM <span> COM AS TECHS USADAS-->
+            <a href="https://landingpage-phmello-portifolio.netlify.app" class="w-full flex justify-between content-center">
+                <i class="fa-solid fa-link text-gray-400 text-center"></i>
+                <p class="font-medium justify-center">landing-page-portfolio</p>
+                <span>
+                    <span class="tags">
+                        TailwindCSS
+                    </span>
+                    <span class="tags">
+                        Flowbite
+                    </span>
+                </span>
+            </a>
+        </article>
+    </session>
+    <script src="https://kit.fontawesome.com/ff9465f468.js" crossorigin="anonymous"></script>
+</body>
+</html>
