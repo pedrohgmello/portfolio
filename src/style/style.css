@@ -10,7 +10,7 @@
     }
 
 .tags {
-        @apply rounded-lg bg-gradient-to-r from-indigo-950 to-purple-800 text-white text-sm font-medium p-1 mx-0.5;
+        @apply rounded-lg bg-gradient-to-r from-indigo-950 to-purple-800 text-white text-sm font-medium p-0.5 md:p-1 md:mx-0.5;
     }
 
 @layer base {
